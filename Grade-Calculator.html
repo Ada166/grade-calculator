@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <script>
+        let A = "A";
+        let B = "B";
+        let C = "C";
+        let F = "F";
+        function getGrade(score) {
+            if (score >= 95) return "A";
+          else if (score >=80) return "B";
+          else if (score >=70) return "C";
+          else return "F";
+        }
+        console.log(getGrade(94));
+        console.log(getGrade(50));
+        console.log(getGrade(79));
+    </script>
+
+</body>
+</html>
